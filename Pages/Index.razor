@@ -1,0 +1,34 @@
+﻿@page "/"
+
+<SfAccumulationChart Title="Mobile Browser Statistics">
+    <AccumulationChartSeriesCollection>
+        <AccumulationChartSeries Type="AccumulationType.Pie"
+           DataSource="@ChartData" XName="Browser" YName="UsersCount"
+            InnerRadius="40%">
+            <AccumulationDataLabelSettings Visible="true">
+            </AccumulationDataLabelSettings>
+        </AccumulationChartSeries>
+        <AccumulationChartTooltipSettings Enable="true">
+
+        </AccumulationChartTooltipSettings>
+    </AccumulationChartSeriesCollection>
+</SfAccumulationChart>
+
+@code
+{
+    public class ChartDataModel
+    {
+        public string Browser { get; set; }
+
+        public int UsersCount { get; set; }
+    }
+
+    List<ChartDataModel> ChartData = new List<ChartDataModel>
+    {
+        new ChartDataModel { Browser = "Chrome", UsersCount = 37},
+        new ChartDataModel { Browser = "UC Browse", UsersCount = 17},
+        new ChartDataModel { Browser = "Safari",  UsersCount = 19 },
+        new ChartDataModel { Browser = "Others", UsersCount = 4 },
+        new ChartDataModel { Browser = "Opera", UsersCount = 11 }
+    };
+}
