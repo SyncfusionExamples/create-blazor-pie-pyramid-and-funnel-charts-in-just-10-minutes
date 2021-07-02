@@ -1,6 +1,6 @@
 # Create Blazor Pie, Pyramid, and Funnel Charts in Just 10 Minutes
 
-Learn how easily you can create and configure Syncfusion Blazor accumulation charts in a Blazor WebAssembly app using Visual Studio 2019. In this video, you will learn how to add a simple Blazor accumulation chart to a Blazor WebAssembly app. You will see how to populate list data and set series types to charts. You will also learn how to add legends and enable data labels and tooltips in Blazor accumulation charts. 
+A quick start Blazor project that helps you to learn how to add a simple Blazor accumulation chart to a Blazor WebAssembly app. In this video, You will see how to populate list data and set series types to charts. You will also learn how to add legends and enable data labels and tooltips in Blazor accumulation charts.
  
 Example: https://blazor.syncfusion.com/demos/chart/pie 
 
