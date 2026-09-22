@@ -2,7 +2,7 @@
 
 ## Overview
 
-This sample demonstrates how to create and configure Syncfusion Blazor Accumulation Charts in a hosted Blazor WebAssembly application. The solution showcases Pie, Pyramid, and Funnel chart visualizations using shared data collections and accumulation-series rendering. The sample illustrates how to bind data to chart components, configure different accumulation chart types, display legends, and enhance chart readability through data labels and tooltips.
+This sample demonstrates how to create and configure Syncfusion [Blazor Chart](https://www.syncfusion.com/blazor-components/blazor-charts) in a hosted Blazor WebAssembly application. The solution showcases Pie, Pyramid, and Funnel chart visualizations using shared data collections and accumulation-series rendering. The sample illustrates how to bind data to chart components, configure different accumulation chart types, display legends, and enhance chart readability through data labels and tooltips.
 
 The implementation is organized as a hosted Blazor WebAssembly solution with separate Client, Server, and Shared projects.
 
