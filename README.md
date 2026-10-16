@@ -47,11 +47,6 @@ dotnet run
 
 4. Open the local application URL displayed after the application starts.
 
-## Project Structure
-
-- `Client/Pages/` — contains the Razor page implementing the Pie, Pyramid, and Funnel chart samples.
-- Additional files within the Client project support chart configuration, sample data binding, legends, tooltips, and data-label rendering.
-
 ## Support and Feedback
 
 - For general product questions, visit the [Syncfusion Community Forum](https://www.syncfusion.com/forums) or [Syncfusion Support](https://www.syncfusion.com/support).
