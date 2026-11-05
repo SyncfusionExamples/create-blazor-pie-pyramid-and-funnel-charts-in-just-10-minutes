@@ -2,9 +2,9 @@
 
 ## Overview
 
-This sample demonstrates how to create and configure Syncfusion [Blazor Chart](https://www.syncfusion.com/blazor-components/blazor-charts) in a hosted Blazor WebAssembly application. The solution showcases Pie, Pyramid, and Funnel chart visualizations using shared data collections and accumulation-series rendering. The sample illustrates how to bind data to chart components, configure different accumulation chart types, display legends, and enhance chart readability through data labels and tooltips.
+This sample demonstrates how to create and configure Syncfusion [Blazor Chart](https://www.syncfusion.com/blazor-components/blazor-charts) in a Blazor WebAssembly application. The sample showcases Pie, Pyramid, and Funnel chart visualizations using shared data collections and accumulation-series rendering. The sample illustrates how to bind data to chart components, configure different accumulation chart types, display legends, and enhance chart readability through data labels and tooltips.
 
-The implementation is organized as a hosted Blazor WebAssembly solution with separate Client, Server, and Shared projects.
+The implementation targets .NET 10 and follows the latest Blazor WebAssembly project structure (App.razor, Layout, Pages, Properties, and wwwroot folders in a single project).
 
 ## Key Features
 
@@ -15,30 +15,29 @@ The implementation is organized as a hosted Blazor WebAssembly solution with sep
 - Enables legends for category identification and chart interpretation.
 - Enables data labels to display values directly within chart segments.
 - Uses tooltips to provide additional information during user interaction.
-- Uses a hosted Blazor WebAssembly architecture consisting of Client, Server, and Shared projects.
+- Uses a Blazor WebAssembly architecture following the latest .NET project structure.
 - Demonstrates chart rendering scenarios documented in the Syncfusion Accumulation Chart documentation.
 
 ## Prerequisites
 
 - Visual Studio 2022 or Visual Studio Code
-- .NET SDK compatible with the project's target framework
+- .NET SDK 10.0
 
 ## How to Run the Project
 
 **Visual Studio 2022**
 
 1. Clone or download this repository.
-2. Open `PiePyramidAndFunnelChart.sln`.
+2. Open `PiePyramidAndFunnelChart.csproj`.
 3. Restore all NuGet packages.
-4. Set the hosted application startup project if required.
-5. Build the solution.
-6. Run the application using `Ctrl+F5`.
+4. Build the project.
+5. Run the application using `Ctrl+F5`.
 
 **Visual Studio Code**
 
 1. Open the repository folder in Visual Studio Code.
 2. Open the integrated terminal.
-3. Navigate to the repository root containing the solution.
+3. Navigate to the repository root containing the project.
 
 ```bash
 dotnet restore
